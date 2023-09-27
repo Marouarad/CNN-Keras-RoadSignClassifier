@@ -5,7 +5,7 @@ Traffic sign classifier model using CNN&amp;Keras for image classification. (+HL
 
 https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign/data
 
-![image](https://github.com/Marouarad/CNN-Keras-RoadSignClassifier/assets/114839150/affadfde-10a6-4a8c-b9e2-7befa7810d56)
+https://github.com/Marouarad/CNN-Keras-RoadSignClassifier/assets/114839150/affadfde-10a6-4a8c-b9e2-7befa7810d56) width="300" height="200">
 
 
 

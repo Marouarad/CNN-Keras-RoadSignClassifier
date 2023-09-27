@@ -1,0 +1,94 @@
+Backend: Vivado
+ClockPeriod: 5
+HLSConfig:
+  LayerName:
+    conv2d:
+      Precision:
+        bias: fixed<16,6>
+        result: fixed<16,6>
+        weight: fixed<16,6>
+      Trace: false
+    conv2d_1:
+      Precision:
+        bias: fixed<16,6>
+        result: fixed<16,6>
+        weight: fixed<16,6>
+      Trace: false
+    conv2d_1_relu:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    conv2d_2:
+      Precision:
+        bias: fixed<16,6>
+        result: fixed<16,6>
+        weight: fixed<16,6>
+      Trace: false
+    conv2d_2_relu:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    conv2d_3:
+      Precision:
+        bias: fixed<16,6>
+        result: fixed<16,6>
+        weight: fixed<16,6>
+      Trace: false
+    conv2d_3_relu:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    conv2d_input:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    conv2d_relu:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    dense:
+      Precision:
+        bias: fixed<16,6>
+        result: fixed<16,6>
+        weight: fixed<16,6>
+      Trace: false
+    dense_1:
+      Precision:
+        bias: fixed<16,6>
+        result: fixed<16,6>
+        weight: fixed<16,6>
+      Trace: false
+    dense_1_softmax:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    dense_relu:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    flatten:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    max_pooling2d:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+    max_pooling2d_1:
+      Precision:
+        result: fixed<16,6>
+      Trace: false
+  Model:
+    BramFactor: 1000000000
+    Precision: ap_fixed<16,6>
+    ReuseFactor: 1
+    Strategy: Latency
+    TraceOutput: false
+IOType: io_parallel
+InputData: null
+KerasModel: !keras_model 'my-hls-test/keras_model.h5'
+OutputDir: my-hls-test
+OutputPredictions: null
+Part: xcku115-flvb2104-2-i
+ProjectName: myproject
+Stamp: 8dBbCb03
